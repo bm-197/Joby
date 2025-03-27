@@ -125,7 +125,7 @@ export default function Page() {
       </div>
     </div>
   ) : (
-    <div className="ml-[45%] mt-[20%] text-4xl font-bold">
+    <div className="ml-[40%] mt-[20%] text-4xl font-bold">
       No Job with id {jobId}
     </div>
   )
