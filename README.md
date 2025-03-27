@@ -23,16 +23,24 @@ The homepage shows a list of job listings. Browse through the listings to find r
 ### 2. View Job Details
 Click on any job listing to see detailed information such as job description, requirements, and location.
 
----
 
 ## How to Clone and Run the Website Locally
+
+Sure! Here's the updated "Prerequisites" section of your README, reflecting that you're using `pnpm`:
 
 ### Prerequisites
 
 Make sure you have the following installed on your machine:
 
 - [Node.js](https://nodejs.org/) (LTS version)
-- [pnpm](https://www.npmjs.com/)
+- [npm](https://www.npmjs.com/)
+- [pnpm](https://pnpm.io/) (Recommended over npm for faster and more efficient package management)
+
+If you don’t have `pnpm` installed, you can install it using the following command:
+
+```bash
+npm install -g pnpm
+``` 
 
 ### 1. Clone the Repository
 
