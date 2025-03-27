@@ -23,7 +23,7 @@ export default function Page() {
     { 'id': 5, 'icon': '/enddate-icon.svg', 'label': 'End Date', 'content': clickedJob?.about.end_date },
   ]
 
-  return (
+  return clickedJob ? (
     <div className="py-15">
       <div className="flex gap-12 max-w-265 m-auto px-5">
         <div className="flex flex-col gap-10 max-w-185">
@@ -37,7 +37,7 @@ export default function Page() {
               {clickedJob?.responsibilities.map((item, idx) => {
                 return (
                   <div className="text-sm opacity-80 flex gap-2 mb-2 items-center" key={idx}>
-                    <Image  className="w-5 h-5" src="/list-icon.svg" alt="List icon" width={0} height={0} />
+                    <Image className="w-5 h-5" src="/list-icon.svg" alt="List icon" width={0} height={0} />
                     <div>{item}</div>
                   </div>
                 )
@@ -123,6 +123,10 @@ export default function Page() {
           </div>
         </div>
       </div>
+    </div>
+  ) : (
+    <div className="ml-[45%] mt-[20%] text-4xl font-bold">
+      No Job with id {jobId}
     </div>
   )
 }
