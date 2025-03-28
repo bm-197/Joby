@@ -8,7 +8,7 @@ type JobCardProps = {
 }
 export default function JobCard({ job }: JobCardProps) {
   return (
-    <Link href={`/jobs/job?id=${job.id}`} className="flex gap-5 border-[1px] border-slate-300 rounded-2xl mb-5 px-7 py-3 cursor-pointer">
+    <Link href={`/jobs/job?id=${job.id}`} className="flex gap-5 border-[1px] border-slate-300 rounded-3xl mb-5 px-7 py-3 cursor-pointer">
       <div className="w-10">
         <Image
           src={job.image}
