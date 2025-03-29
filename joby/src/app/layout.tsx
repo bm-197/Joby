@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { epilogue } from "@/app/ui/fonts";
+import { epilogue } from "@/app/libs/fonts";
+import Providers from '@/app/providers';
 import "./globals.css";
 
 
@@ -18,8 +19,9 @@ export default function RootLayout({
       <body
         className={`${epilogue.className} ${epilogue.className} antialiased`}
       >
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
 }
+
