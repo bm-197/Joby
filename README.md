@@ -14,6 +14,9 @@ Here's what the website looks like:
 
 ![Job Listings](./screenshots/image.png)
 ![Job Detail](./screenshots/image1.png)
+![Job Detail](./screenshots/image3.png)
+![Job Detail](./screenshots/image4.png)
+![Job Detail](./screenshots/image5.png)
 
 ## How to Use
 
