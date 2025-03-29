@@ -14,9 +14,9 @@ Here's what the website looks like:
 
 ![Job Listings](./screenshots/image.png)
 ![Job Detail](./screenshots/image1.png)
-![Job Detail](./screenshots/image3.png)
-![Job Detail](./screenshots/image4.png)
-![Job Detail](./screenshots/image5.png)
+<img src="./screenshots/image3.png" alt="Job Listings" width="300" />
+<img src="./screenshots/image4.png" alt="Job Listings" width="300" />
+<img src="./screenshots/image5.png" alt="Job Listings" width="300" />
 
 ## How to Use
 
