@@ -12,11 +12,14 @@ A simple job listing website built with Next.js and TypeScript. The website disp
 
 Here's what the website looks like:
 
-![Job Listings](./screenshots/image.png)
-![Job Detail](./screenshots/image1.png)
+<img src="./screenshots/image.png" alt="Job Listings" width="600" />
+<img src="./screenshots/image1.png" alt="Job Detail" width="600" />
 <img src="./screenshots/image3.png" alt="Job Listings" width="300" />
-<img src="./screenshots/image4.png" alt="Job Listings" width="300" />
-<img src="./screenshots/image5.png" alt="Job Listings" width="300" />
+<img src="./screenshots/image4.png" alt="Job Detail" width="300" />
+<img src="./screenshots/image5.png" alt="Job Detail" width="300" />
+<img src="./screenshots/image6.png" alt="Log In" width="300" />
+<img src="./screenshots/image7.png" alt="Sign up" width="300" />
+<img src="./screenshots/image8.png" alt="Verify Email" width="300" />
 
 ## How to Use
 
