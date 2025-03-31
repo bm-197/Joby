@@ -91,7 +91,7 @@ export default function SignUp() {
                   placeholder="Enter your full name"
                   className="w-70 md:w-80 block px-[12px] py-[6px] leading-1.42857143 border-1 border-violet-200 rounded-[0.3rem] m-[1px] opacity-70 placeholder:text-[13px] focus:outline-none"
                 />
-                <p className="text-red-500 text-[12px] align-right absolute top-[100%] width-[100%] mt-[5px]">{errors.fullName?.message}</p>
+                <p className="text-red-500 text-[12px] align-right absolute top-[100%] right-0  width-[100%] mt-[5px]">{errors.fullName?.message}</p>
               </div>
             </div>
             <div className="mb-[10px] relative">
@@ -113,7 +113,7 @@ export default function SignUp() {
                 placeholder="Enter you email"
                 className="w-70 md:w-80 block px-[12px] py-[6px] leading-1.42857143 border-1 border-violet-200 rounded-[0.3rem] m-[1px] opacity-70 placeholder:text-[13px] focus:outline-none"
               />
-              <p className="text-red-500 text-[12px] align-right absolute top-[100%] width-[100%] mt-[5px]">{errors.email?.message}</p>
+              <p className="text-red-500 text-[12px] align-right absolute top-[100%] right-0 width-[100%] mt-[5px]">{errors.email?.message}</p>
             </div>
             <div className="mb-[10px] relative">
               <label htmlFor="password" className="opacity-80 text-sm font-600">Password</label>
@@ -129,7 +129,7 @@ export default function SignUp() {
                 placeholder="Enter you password"
                 className="w-70 md:w-80 block px-[12px] py-[6px] leading-1.42857143 border-1 border-violet-200 rounded-[0.3rem] m-[1px] opacity-70 placeholder:text-[13px] focus:outline-none"
               />
-              <p className="text-red-500 text-[12px] align-right absolute top-[100%] width-[100%] mt-[5px]">{errors.email?.message}</p>
+              <p className="text-red-500 text-[12px] align-right absolute top-[100%] right-0 width-[100%] mt-[5px]">{errors.email?.message}</p>
             </div>
             <div className="mb-[20px] relative">
               <label htmlFor="confirmpassword" className="opacity-80 text-sm font-600">Confirm Password</label>
@@ -145,7 +145,7 @@ export default function SignUp() {
                 placeholder="Confirm password"
                 className="w-70 md:w-80 block px-[12px] py-[6px] leading-1.42857143 border-1 border-violet-200 rounded-[0.3rem] m-[1px] text-[13px] opacity-70 placeholder:text-[13px] focus:outline-none"
               />
-              <p className="text-red-500 text-[12px] align-right absolute top-[100%] width-[100%] mt-[5px]">{errors.email?.message}</p>
+              <p className="text-red-500 text-[12px] absolute top-[100%] right-0 width-[100%] mt-[5px]">{errors.confirmPassword?.message}</p>
             </div>
             {!loading ?
             (<button onClick={()=> setLoading(true)} className="self-center mt-10px border-0 bg-indigo-800 text-white py-[0.5rem] px-[1.1rem]rounded-[0.3rem] font-extrabold w-70 md:w-80 rounded-3xl text-sm cursor-pointer">

@@ -99,7 +99,7 @@ export default function ValidateEmail({ userEmail }: { userEmail: string }) {
             setLoading(true)
           }}
           disabled={otpError}
-          className={`self-center mt-5 border-0 ${otpError ? 'bg-indigo-200 cursor-not-allowed' : 'bg-indigo-800'} text-white py-[0.8rem] px-[1.1rem] font-extrabold w-80 md:w-102 rounded-3xl text-sm cursor-pointer`}
+          className={`self-center mt-5 border-0 ${otpError ? 'bg-indigo-200 cursor-not-allowed' : 'bg-indigo-800 cursor-pointer'} text-white py-[0.8rem] px-[1.1rem] font-extrabold w-80 md:w-102 rounded-3xl text-sm`}
         >
           Continue
         </button>) : 
