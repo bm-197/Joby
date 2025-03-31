@@ -6,6 +6,6 @@ export const poppins = Poppins({
 });
 
 export const epilogue = Epilogue({
-  weight:['100', '400', '600', '700'],
+  weight:['100', '400', '600'],
   subsets: ['latin'],
 });
