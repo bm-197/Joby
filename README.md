@@ -6,8 +6,11 @@ A simple job listing website built with Next.js and TypeScript. The website disp
 
 - Display a list of available job postings.
 - Click on a job listing to see more detailed information about the job.
-- Built with **Next.js** and **TypeScript** for better scalability and development efficiency.
 
+Bookmark Functionality:
+- Users can click on the bookmark icon to save a job posting. Bookmarked jobs appear in a separate bookmarked list.
+- Built with Next.js and TypeScript for better scalability and development efficiency.
+- Uses NextAuth for authentication, so users can securely log in to manage their bookmarks
 ## Screenshots
 
 Here's what the website looks like:
@@ -79,3 +82,40 @@ pnpm run dev
 ```
 
 The website should now be running on [http://localhost:3000](http://localhost:3000).
+
+## Testing
+This project includes both unit tests (using Jest) and end-to-end tests (using Cypress).
+
+### Unit Tests
+Unit tests for components, including the job card with bookmark functionality, are located in the __tests__/ folder.
+
+To run unit tests, execute:
+
+```bash
+pnpm test
+```
+### End-to-End (E2E) Tests with Cypress
+E2E tests mimic user interactions with the bookmark feature and are located in the cypress/e2e/ folder. They test scenarios like:
+
+- Toggling the bookmark state on a job card.
+
+- Verifying that a bookmarked job appears in the bookmark list.
+
+#### Running Cypress Tests
+
+Install Cypress (if not already installed):
+
+```bash
+pnPm add -D cypress
+```
+Open the Cypress Test Runner:
+
+```bash
+pnpm exec cypress open
+```
+or run tests headlessly with:
+```
+bash
+pnpm exec cypress run
+```
+
